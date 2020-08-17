@@ -40,6 +40,8 @@ def get_japanese_emoticon(file, emoticon)
     emoticons.each do |key, value|
       result[value[:english]] = value[:japanese]
       final_result = result[emoticon]
+      if final_result == nil
+        final_result = "Sorry, that emoticon was not found"
      #binding.pry
     end
     final_result
