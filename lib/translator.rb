@@ -42,6 +42,7 @@ def get_japanese_emoticon(file, emoticon)
       final_result = result[emoticon]
       if final_result == nil
         final_result = "Sorry, that emoticon was not found"
+      end
      #binding.pry
     end
     final_result
