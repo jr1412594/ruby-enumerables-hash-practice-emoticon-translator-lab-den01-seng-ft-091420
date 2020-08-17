@@ -39,7 +39,7 @@ def get_japanese_emoticon(file, emoticon)
     emoticons = load_library(file)
     emoticons.each do |key, value|
       result[value[:english]] = [value[:japanese]]
-      result[emoticon]
+      final_result = result[emoticon]
      binding.pry
     end
  end
