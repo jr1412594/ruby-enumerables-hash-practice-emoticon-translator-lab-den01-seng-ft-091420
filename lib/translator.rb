@@ -42,5 +42,6 @@ def get_japanese_emoticon(file, emoticon)
       final_result = result[emoticon]
      binding.pry
     end
+    final_result
  end
 
