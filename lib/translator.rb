@@ -29,7 +29,6 @@ def get_english_meaning(file, emoticon)
    #binding.pry
   end
 final_result
-#binding.pry
 end
 
 def get_japanese_emoticon(file, emoticon)
@@ -46,6 +45,5 @@ def get_japanese_emoticon(file, emoticon)
      #binding.pry
     end
     final_result
-    #binding.pry
  end
 
