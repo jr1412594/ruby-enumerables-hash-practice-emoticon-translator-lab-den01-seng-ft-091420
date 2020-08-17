@@ -40,6 +40,7 @@ def get_japanese_emoticon(file, emoticon)
     emoticons.each do |key, value|
       result[value[:english]] = [value[:japanese]]
       result[emoticon] = final_result
+      final_result
      binding.pry
     end
  end
